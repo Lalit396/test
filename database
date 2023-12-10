@@ -1,0 +1,12 @@
+-- Create database
+CREATE DATABASE your_database;
+
+CREATE TABLE tickers (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(255),
+  last NUMERIC,
+  buy NUMERIC,
+  sell NUMERIC,
+  volume NUMERIC,
+  base_unit VARCHAR(50)
+);
